@@ -1,106 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-    <nav>
-        <a href=./index.html>WebStudio</a>
-        <ul>
-            <li>Studio</li>
-            <li>Portfolio</li>
-            <li>Contacts</li>
-        </ul>
-    </nav>
-    <address>
-        <ul>
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-       </ul>
-       </address>
-    </header>
 
-    <main>
-<!-- Секция 1 -->
-<section>
-    <ul>
-        <li>All</li>
-        <li>Web Site</li>
-        <li>App</li>
-        <li>Design</li>
-        <li>Marketing</li>
-    </ul>
-</section>
-<!-- Секция 2 -->
-<section>
-    <ul>
-        <li>
-            <img src="./images/img.jpg" alt="BankingApp" width="360">
-            <h3>Banking App Interface Concept</h3>
-            <p>App</p>
-        </li>
-        <li>
-            <img src="./images/img(1).jpg" alt="Cashless payment by phone" width="360">
-            <h3>Cashless Payment</h3>
-            <p>Marketing</p>
-        </li>
-        <li>
-            <img src="./images/img(2).jpg" alt="Meditaion App" width="360">
-            <h3>Meditaion App</h3>
-            <p>App</p>
-        </li>
-    </ul>
-</section>
-<!-- Секция 3 -->
-<section>
-    <ul>
-        <li>
-            <img src="./images/img(3).jpg" alt="Interior of the car" width="360">
-            <h3>Taxi Service</h3>
-            <p>Marketing</p>
-        </li>
-        <li>
-            <img src="./images/img(4).jpg" alt="Phone Theme" width="360">
-            <h3>Screen Illustrations</h3>
-            <p>Design</p>
-        </li>
-        <li>
-            <img src="./images/img(5).jpg" alt="Student" width="360">
-            <h3>Online Courses</h3>
-            <p>Marketing</p>
-        </li>
-    </ul>
-</section>
-<!-- Секция 4 -->
-<section>
-    <ul>
-        <li>
-            <img src="./images/img(6).jpg" alt="Instagram Stories Concept">
-            <h3></h3>
-            <p>Design</p>
-        </li>
-        <li>
-            <img src="./images/img(7).jpg" alt="Organic Food">
-            <h3></h3>
-            <p>Web Site</p>
-        </li>
-        <li>
-            <img src="./images/img(8).jpg" alt="Fresh Coffee">
-            <h3></h3>
-            <p>Web Site</p>
-        </li>
-    </ul>
-</section>
-    </main>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <footer>
-        <a href=./index.html>WebStudio</a>
-          <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.
-          </p>
-    </footer>
-  </body>
-</html>
+<body>
+<header>
+    <div class="top-menu">
+        <nav class="navigation">
+            <a href="./index.html" class="logo"><span class="bluecolor">Web</span>Studio</a>
+            <ul class="main-menu">
+                <li>
+                    <a href="./index.html">Studio</a>
+                </li>
+                <li>
+                    <a href="./portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="contact-menu">
+        <address>
+            <ul class="contact-info">
+                <li>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
+    </div>
+</header>
+
+<main>
+
+<section>
+<div class="category">
+    <ul class="list-of-category">
+        <li>
+            <button type="button" >All</button>
+        </li>
+        <li>
+            <button type="button">Web Site</button>
+        </li>
+        <li>
+            <button type="button">App</button>
+        </li>
+        <li>
+            <button type="button">Design</button>
+        </li>
+        <li>
+            <button type="button">Marketing</button>
+        </li>
+    </ul>
+</div>
+<div class="lsit-of-work">
+<ul>
+    <div class="group-work">
+    <li class="work-one">
+        <div class="work-info">
+        <img src="./images/Banking_App_Interface_Concept.jpg" alt="Banking App Interface Concept" width="360">
+        <div class="work-description">
+        <h3>Banking App Interface Concept</h3>
+        <p>App</p>
+        </div>
+    </div>
+
+    </li>
+    <li class="work-one">
+        <div class="work-info">
+        <img src="./images/Cashless_Payment.jpg" alt="Cashless Payment" width="360">
+        <div class="work-description">
+        <h3>Cashless Payment</h3>
+        <p>Marketing</p>
+        </div>
+        </div>
+    </li>
+    <li class="work-one">
+        <div class="work-info">
+        <img src="./images/Meditaion_App.jpg" alt=Meditaion App" width="360">
+        <div class="work-description">
+        <h3>Meditaion App</h3>
+        <p>Product Designer</p>
+        </div>
+        </div>
+    </li>
+    </div>
+
+
+
+
+
+    <div class="group-work">
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Taxi_Service.jpg" alt="Taxi Service" width="360">
+                <div class="work-description">
+        <h3>Taxi Service</h3>
+        <p>Marketing</p>
+                </div>
+            </div>
+    
+        </li>
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Screen_Illustrations.jpg" alt="Screen Illustrations" width="360">
+                <div class="work-description">
+        <h3>Screen Illustrations</h3>
+        <p>Design</p>
+                </div>
+            </div>
+        </li>
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Online_Courses.jpg" alt="Online Courses" width="360">
+                <div class="work-description">
+        <h3>Online Courses</h3>
+        <p>Marketing</p>
+                </div>
+            </div>
+        </li>
+    </div>
+
+
+
+
+
+
+    <div class="group-work">
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Instagram_Stories_Concept.jpg" alt="Instagram Stories Concept" width="360">
+                <div class="work-description">
+        <h3>Instagram Stories Concept</h3>
+        <p>Design</p>
+                </div>
+            </div>
+    
+        </li>
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Organic_Food.jpg" alt="Organic Food" width="360">
+                <div class="work-description">
+        <h3>Organic Food</h3>
+        <p>Web Site</p>
+                </div>
+            </div>
+        </li>
+        <li class="work-one">
+            <div class="work-info">
+        <img src="./images/Fresh_Coffee.jpg" alt="Fresh Coffee" width="360">
+                <div class="work-description">
+        <h3>Fresh Coffee</h3>
+        <p>Web Site</p>
+                </div>
+            </div>
+        </li>
+    </div>
+    
+</div>
+
+
+</section>
+
+ </main>
+
+
+<footer>
+    <div class="footer">
+        <div class="footer-info">
+            <a href="./index.html" class="logo-footer"><span class="bluecolor">Web</span>Studio</a>
+            <p>Increase the flow of customers<br> and sales for your business with digital <br> marketing & growth
+                solutions.</p>
+        </div>
+
+    </div>
+
+</footer>
+    </body>
+    
+    </html>
